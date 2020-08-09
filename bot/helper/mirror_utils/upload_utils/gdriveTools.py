@@ -465,7 +465,7 @@ class GoogleDriveHelper:
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
                                  title = 'Mirror Bot Search',
                                  author_name='Mirror Bot',
-                                 author_url='https://github.com/magneto261290/magneto-python-ariap',
+                                 author_url='https://drive.google.com/folderview?id=1O7l-dJ1Yefm3MRSVbke2bqEv0bppsgn-',
                                  html_content=content)
         return
 
@@ -524,7 +524,7 @@ class GoogleDriveHelper:
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
                                                         title = 'Mirror Bot Search',
                                                         author_name='Mirror Bot',
-                                                        author_url='https://github.com/magneto261290/magneto-python-aria',
+                                                        author_url='https://drive.google.com/folderview?id=1O7l-dJ1Yefm3MRSVbke2bqEv0bppsgn-',
                                                         html_content=content
                                                         )['path'])
 
